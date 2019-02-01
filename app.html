@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MyTasks</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/app.css" />
+  </head>
+
+  <body>
+    <!-- NAVIGATION -->
+    <nav id="nav" class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="app.html">App</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+    <div class="app">
+      <!-- HEADER -->
+      <header id="header" class="header"><h1 class="title">MyTasks</h1></header>
+
+      <!-- TASK FORM -->
+      <form id="task-form" class="task-form">
+        <input
+          id="task-input"
+          class="task-input"
+          type="text"
+          placeholder="What to do?"
+        />
+        <input id="task-add" class="task-add" type="button" value="Add" />
+      </form>
+
+      <!-- TASK LIST -->
+      <ul id="task-list" class="task-list">
+        <li>
+          <span>Learning to design</span><button class="delete">✖</button>
+        </li>
+        <li>
+          <span>Coding a new website</span><button class="delete">✖</button>
+        </li>
+        <li>
+          <span>Sleeping before midnight</span><button class="delete">✖</button>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

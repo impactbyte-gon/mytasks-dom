@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Learn CSS</title>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav id="nav" class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="app.html">App</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <!-- HEADER -->
+      <header><h1 id="title" class="title blue">Learn CSS</h1></header>
+
+      <!-- FORM -->
+      <main>
+        <form id="login">
+          <h3>Login to your account</h3>
+          <p>Let's see if <b class="fat">you</b> can login</p>
+          <div class="login-section">
+            <label class="login-label" for="email">Email:</label>
+            <input
+              class="login-input"
+              type="email"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="login-section">
+            <label class="login-label" for="password">Password:</label>
+            <input class="login-input" type="password" />
+          </div>
+          <input class="login-button" type="button" value="Login" />
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
